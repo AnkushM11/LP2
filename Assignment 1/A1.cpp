@@ -24,7 +24,6 @@ class Graph {
 		for (int i = 0; i < edges; i++) {
 			cout << "Enter sourceNode & destinationNode: ";
 			cin >> u >> v;
-
 			graph[u].push_back(v);
 			graph[v].push_back(u);
 		}
