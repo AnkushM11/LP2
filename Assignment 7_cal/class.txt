@@ -1,0 +1,23 @@
+public class Calculator {
+    public integer firstNumber {get ;set;}
+    public integer secondNumber{get ;set;}
+    public String result{get ;set;}
+   
+    public void Addition(){
+        result=String.valueOf(firstNumber+secondNumber);
+       
+    }
+    public void Subtraction(){
+       result=String.valueOf(firstNumber-secondNumber);
+    }
+    public void Multiplication(){
+        result=String.valueOf(firstNumber*secondNumber);
+    }
+    public void Division(){
+        if(secondNumber!=0){
+            result=String.valueOf(firstNumber/secondNumber);
+        }else{
+            result='Please Enter the valid input';
+        }
+    }
+}

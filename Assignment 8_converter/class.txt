@@ -1,0 +1,23 @@
+public class converter {
+   public decimal INR{get; set;}
+    
+    public decimal result{get; set;}
+    
+    public void USD()
+    {
+        result = INR * 0.012068;
+    }
+    public void EUR()
+    {
+        result = INR * 0.011;
+    }
+    public void Dinar()
+    {
+        result = INR * 0.046;
+    }
+    public void YEN()
+    {
+        result = INR * 1.67;
+    }
+    
+}
